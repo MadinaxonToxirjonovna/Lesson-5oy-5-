@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lesson 5oy(5)</title>
+  </head>
+
+
+
+  <!-- 
+    <img id="demo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg3cy8PW1Zs_aemchELNsvs3OLPH_u9J_P6w&s" alt="car">
+    <script>
+        document.getElementById("demo").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQKe4VGrcTdNTVKxLho3AhO9II74F63oRmvA&s";
+    </script> -->
+
+
+    <!-- <h1 id="mars">Hello Mars</h1>
+    // document.getElementById("mars").style.color = "red";
+    // document.getElementById("mars").style.background = "green"; -->
+
+
+    <!-- <script>
+    const element = document.getElementById("demo");
+    element.style.border = "5px solid blue"
+    element.style.width = "300px"
+
+    </script> -->
+
+
+
+  <body>
+    <input id="nameInput" type="text" placeholder="Ismingizni kiriting" />
+    <button id="button" onclick="showName()">Isimni chiqarish</button>
+    <div id="displayName"></div>
+
+    <script>
+      function showName() {
+        let name = document.getElementById("nameInput").value
+        console.log(name)
+        document.getElementById("displayName").textContent = name
+      }
+    </script>
+  </body>
+</html>
